@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Clear Site Data Extension",
+    "version": "1.0",
+    "description": "Extensão que limpa todos os dados armazenados para o site atual.",
+    "permissions": [
+        "storage",
+        "cookies",
+        "browsingData",
+        "activeTab"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
